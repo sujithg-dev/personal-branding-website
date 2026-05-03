@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujith Groups</title>
+    <link rel="icon" type="image/x-icon" href="assets/icons/nav-logo.png">
+    <!-- CSS Plugins -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+
+    <!-- Enquiry Form -->
+    <div class="enquiry-form-btn" onclick="toggleform()">
+        <span>Enquire Now</span>
+    </div>
+    <div class="enquiry-form">
+        <div class="d-flex justify-content-between">
+            <div>
+                <h3>Business Enquiry Form</h3>
+                <p>Please drop in your details and we will get in touch with you shortly</p>
+            </div>
+            <span class="material-symbols-outlined" onclick="toggleform()">close</span>
+        </div>
+        <form name="form-schedule">
+            <div>
+                <input type="text" class="input" name="name" placeholder="Full Name" required>
+                <input type="email" class="input" name="email" placeholder="Corporate Email Id" required>
+            </div>
+            <div>
+                <input type="text" class="input" name="company" placeholder="Company Name" required>
+                <input type="text" class="input" name="designation" placeholder="Designation" required>
+            </div>
+            <div>
+                <input type="tel" class="input" name="phone" placeholder="Contact No" required>
+                <input type="text" class="input" name="location" placeholder="Location" required>
+            </div>
+            <div>
+                <select class="input" name="restaurant-status" required>
+                    <option value="none" disabled selected hidden>Enquiry For</option>
+                    <option value="service">Service</option>
+                    <option value="software">Software</option>
+                </select>
+                <select class="input" name="restaurant-status" required>
+                    <option value="none" disabled selected hidden>How did you hear about us?</option>
+                    <option value="service">Social Media</option>
+                    <option value="software">Google</option>
+                    <option value="online">Online Ads</option>
+                    <option value="blog">Blog</option>
+                    <option value="news">News</option>
+                    <option value="media">Media</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <textarea class="input textarea" maxlength="300" rows="4" placeholder="Any query? Type here . . ."></textarea>
+            <div class="d-flex justify-content-between">
+                <p>By proceeding, you are accepting the Sujith Groups <a href="javascript:void">Privacy Policy </a>and <a href="javascript:void">Terms & Conditions.</a></p>
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+    <!---->
+
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container-fluid">
+            <nav id="navbar" class="navbar navbar-main navbar-expand-lg">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand d-flex gap-2 align-items-center">
+                        <span class="brand-logo">SG</span>
+                        <div>
+                            <h4>Sujith <br> Groups</h4>
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="material-symbols-outlined">menu</span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto d-flex align-items-center">
+                            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="Sujith-groups.html">Sujith Groups</a>
+                                    <a class="dropdown-item" href="Sujith-associates.html">Sujith Associates</a>
+                                    <a class="dropdown-item" href="Sujith-outsourcing.html">Sujith Outsourcing Services India Pvt Ltd</a>
+                                </div>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Services</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="temporary-staffing.html">Temporary Staffing and Payroll Outsourcing</a>
+                                    <a class="dropdown-item" href="contract-staffing.html">Contract Staffing</a>
+                                    <a class="dropdown-item" href="#">Labour Laws Statutes</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="why-us.html">Why Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="page-header">
+                <img src="assets/images/page-header/page-header-service3.jpg" alt="">
+                <div class="container">
+                    <div class="page-header-content">
+                        <h1>Our Services</h1>
+                        <p>Home <span class="material-symbols-outlined">chevron_right</span> Our Services <span class="material-symbols-outlined">chevron_right</span> Labour Laws Statutes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---->
+
+    <main>
+
+        <!-- Section -->
+        <section class="section section-service">
+            <div class="container">
+                <div class="service-content">
+                    <div>
+                        <div>
+                            <img src="assets/images/services-banner/service-banner3.jpg" alt="">
+                        </div>
+                        <div>
+                            <h1>Labour Laws Statutes</h1>
+                            <br>
+                            <p>It is obligatory on part of every employer to register their establishment/ factory under
+                                the provisions of all applicable labour law statutes & compliances such as ESIC
+                                (Employee State Insurance Commission), EPF (Employee Provident Fun), PT (Professional
+                                Tax), LWF (Labour Welfare Fund) etc. subject to the fulfilment of criteria pertaining to
+                                engagement of minimum number of employees, the nature of employment etc. We
+                                render these services to facilitate the entire process of registrations with all concerned
+                                authorities viz. Central Government Agencies, State Government Agencies & local
+                                Municipal Agencies.
+                            </p>
+                            <br><br>
+                            <h3>Value Proposition</h3>
+                            <br>
+                            <ul>
+                                <li>End-to-end management right from filling to the obtaining of licences & permits.</li>
+                                <li>Elimination of any lead time thereby making HR function more effective & efficient and enabling permanent staff to remain focused on core business areas.</li>
+                                <li>Officially representing the client for all the meetings with the various enforcement agencies.</li>
+                                <li>Obtaining of licences across all Tier I, II & III cities of India.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---->
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-first">
+                    <div class="d-flex align-items-center">
+                        <span class="brand-logo">SG</span>
+                        <div>
+                            <h3>Sujith <br> Groups</h3>
+                        </div>
+                    </div>
+                    <p>Sujith Groups, is a full spectrum labour law consulting & human resource advisory firm. The company was started, as a proprietary firm, in 1999</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="Sujith-groups.html"><span class="material-symbols-outlined">arrow_right</span>Sujith Groups</a></li>
+                        <li><a href="Sujith-associates.html"><span class="material-symbols-outlined">arrow_right</span>Sujith Associates</a></li>
+                        <li><a href="Sujith-outsourcing.html"><span class="material-symbols-outlined">arrow_right</span>Sujith Outsourcing Services</a></li>
+                        <li><a href="why-us.html"><span class="material-symbols-outlined">arrow_right</span>Why Us</a></li>
+                        <li><a href="contact-us.html"><span class="material-symbols-outlined">arrow_right</span>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="temporary-staffing.html"><span class="material-symbols-outlined">arrow_right</span>Temporary Staffing and Payroll Outsourcing</a></li>
+                        <li><a href="contract-staffing.html"><span class="material-symbols-outlined">arrow_right</span>Contract Staffing</a></li>
+                        <li><a href="#"><span class="material-symbols-outlined">arrow_right</span>Labour Laws Statutes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="bottom-text">
+                <p>Made by <a href="https://sujith-g.web.app/">Sujith G</a></p>
+                <div>
+                    <a href="javascript:void">Privacy Policy</a></li>
+                    <a href="javascript:void">Terms & Conditions</a></li>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---->
+
+    <!-- JS Plugins -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!---->
+
+</body>
+
+</html>
